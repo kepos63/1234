@@ -1,0 +1,263 @@
+@media screen and (max-width: 320px) {
+  section {
+    margin: 0 auto;
+    width: 320px;
+  }
+  section .oneblock {
+    background: url("img/mount.png") no-repeat top;
+    background-size: 211%;
+  }
+  section .oneblock .container {
+    width: 280px;
+    margin: 0 auto;
+  }
+  section .oneblock .container header nav {
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 15px;
+  }
+  section .oneblock .container header nav .menu {
+    display: none;
+  }
+  section .oneblock .container header nav .submit {
+    width: 280px;
+    top: 17px;
+    display: flex;
+    justify-content: center;
+  }
+  section .oneblock .container header nav .submit .button {
+    width: 280px;
+  }
+  section .oneblock .container main .text1 {
+    margin-top: 45px;
+  }
+  section .oneblock .container main .text1 h1 {
+    font-family: PlayfairDisplay;
+    line-height: 34px;
+    font-size: 36px;
+  }
+  section .oneblock .container main .text1 p {
+    font-family: Signika;
+    line-height: 23px;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    padding-bottom: 13px;
+  }
+  section .oneblock .container footer .footer2 {
+    margin: 0;
+  }
+  section .oneblock .container footer .footer2 .social-media-mouse .social-media a {
+    display: none;
+  }
+  section .oneblock .container footer .footer2 .social-media-mouse .button-mouse {
+    top: 0;
+    left: 0;
+  }
+  section .oneblock .container footer .footer2 .text2 {
+    margin-top: 138px;
+  }
+  section .oneblock .container footer .footer2 .text2 h2 {
+    font-family: PlayfairDisplay;
+    line-height: normal;
+    font-size: 26px;
+  }
+  section .oneblock .container footer .footer2 .text2 .boxtext2 .text21_1 {
+    display: none;
+  }
+  section .oneblock .container footer .footer2 .text2 .boxtext2 .text21_2 {
+    display: none;
+  }
+  section .oneblock .container footer .footer2 .text2 .boxtext2 .text21_3 h4 {
+    font-family: Signika;
+    line-height: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+  }
+  section .oneblock .container footer .footer2 .text2 .boxtext2 .text21_3 p {
+    font-family: Signika;
+    line-height: 23px;
+    font-size: 16px;
+  }
+  section .oneblock .container footer .footer2 .text2 .boxtext2 .text21_4 {
+    display: none;
+  }
+  section .twoblock {
+    top: 0;
+    background: none;
+  }
+  section .twoblock .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+  section .twoblock .container main .text3 {
+    width: 280px;
+    margin: 0 20px;
+  }
+  section .twoblock .container main .text3 h2 {
+    font-family: PlayfairDisplay;
+    line-height: normal;
+    font-size: 26px;
+  }
+  section .twoblock .container main .text3 .boxtext3 .text31 {
+    width: 130px;
+    height: 130px;
+  }
+  section .twoblock .container main .text3 .boxtext3 .text31 p {
+    display: none;
+  }
+  section .twoblock .container main .text3 .boxtext3 .text31 h4 {
+    font-family: Signika;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  section .twoblock .container main .text3 .boxtext3 .text31 .learmore {
+    display: none;
+  }
+  section .twoblock .container main .text4 {
+    width: 100%;
+    height: 540px;
+  }
+  section .twoblock .container main .text4 .boxtext4 {
+    margin: 0;
+  }
+  section .twoblock .container main .text4 .boxtext4 .boxtext41 .text41 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  section .twoblock .container main .text4 .boxtext4 .boxtext41 .text41 .bulb {
+    margin: 20px 25px;
+    height: 77px;
+  }
+  section .twoblock .container main .text4 .boxtext4 .boxtext41 .text41 .thank {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    /*margin-bottom: 25px;*/
+  }
+  section .twoblock .container main .text4 .boxtext4 .boxtext41 .text41 .thank h2 {
+    font-family: Playfair Display;
+    line-height: normal;
+    font-size: 26px;
+    white-space: pre-line;
+  }
+  section .twoblock .container main .text4 .boxtext4 .boxtext41 .text41 .wehere {
+    width: 280px;
+    height: 168px;
+    margin: 0;
+    letter-spacing: 0;
+  }
+  section .twoblock .container main .text4 .boxtext4 .boxtext41 .text41 .wehere p {
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: content-box;
+    font-family: Signika;
+    line-height: 26px;
+    font-size: 16px;
+  }
+  section .twoblock .container main .text5 {
+    width: 320px;
+  }
+  section .twoblock .container main .text5 .boxtext5 {
+    width: 280px;
+    margin: 0 20px;
+    align-items: normal;
+  }
+  section .twoblock .container main .text5 .boxtext5 .text51 {
+    left: 0;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  section .twoblock .container main .text5 .boxtext5 .text51 h2 {
+    font-family: PlayfairDisplay;
+    line-height: normal;
+    font-size: 26px;
+  }
+  section .twoblock .container main .text5 .boxtext5 .text51 p {
+    width: 100%;
+    font-family: Signika-light;
+    line-height: 23px;
+    font-size: 16px;
+  }
+  section .threeblock {
+    top: 0;
+    margin-top: 66px;
+  }
+  section .threeblock .container {
+    width: 320px;
+  }
+  section .threeblock .container main .classus {
+    height: 540px;
+  }
+  section .threeblock .container main .classus .textbox6 {
+    width: 280px;
+    margin: 25px 20px;
+    flex-flow: column nowrap;
+  }
+  section .threeblock .container main .classus .textbox6 .text6 {
+    width: 100%;
+    margin: 0;
+  }
+  section .threeblock .container main .classus .textbox6 .text6 .text61 #call {
+    font-family: PlayfairDisplay;
+    line-height: 34px;
+    font-size: 36px;
+  }
+  section .threeblock .container main .classus .textbox6 .text6 .text61 p {
+    font-family: Signika;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 16px;
+  }
+  section .threeblock .container main .classus .textbox6 .text62 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  section .threeblock .container main .classus .learmore {
+    margin: 0;
+  }
+  section .threeblock .container main .new {
+    width: 280px;
+    margin: 0 20px;
+  }
+  section .threeblock .container main .new .newtext {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  section .threeblock .container main .new .newtext .new1 > .time, section .threeblock .container main .new .newtext .new1 .image {
+    padding: 10px 0;
+  }
+  section .threeblock .container main .new .newtext .new1 h4 {
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.9;
+  }
+  section .threeblock .container main .new .newtext .new1 p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  section .threeblock .container footer {
+    display: flex;
+    justify-content: normal;
+  }
+  section .threeblock .container footer .footer1 {
+    margin: 0;
+  }
+  section .threeblock .container footer .footer1 .box1 {
+    width: 280px;
+    display: flex;
+  }
+  section .threeblock .container footer .footer1 .box1 .menu1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section .threeblock .container footer .footer1 .box2 {
+    width: 280px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
