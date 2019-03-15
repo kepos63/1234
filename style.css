@@ -400,16 +400,17 @@ body,
 section {
   margin: 0 auto;
   color: white;
+  background: #030714;
   /*добавил черный цвет */
 }
 
 section {
-  background: #030714 center;
-  max-width: 1400px;
+  /* background: #030714 center;
+  max-width: 1400px;*/
 }
 section .oneblock {
-  background: url("./img/mount.png") no-repeat top center;
-  background-size: contain;
+  background: #030714 url("./img/mount.png") top no-repeat;
+  background-size: 100vw;
   /*background: url("./img/mount.png") no-repeat bottom;
   background-size: cover;*/
   position: relative;
@@ -688,13 +689,13 @@ h2 {
 }
 
 .twoblock {
-  background: url("./img/sky.png") no-repeat top center;
-  background-size: contain;
+  background: #030714 url("./img/sky.png") center no-repeat;
+  background-size: 100vw;
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
-  top: 134px;
+  top: 100px;
   /*top: -170px;
   height: 1780px;*/
 }
@@ -874,7 +875,7 @@ h2 {
 
 .text4 > .learmore {
   /*  background: #FFE195;*/
-  color: #000000;
+  color: #03071400 0;
   margin-top: 5%;
 }
 
