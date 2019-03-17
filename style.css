@@ -875,7 +875,7 @@ h2 {
 
 .text4 > .learmore {
   /*  background: #FFE195;*/
-  color: #03071400 0;
+  color: #030714;
   margin-top: 5%;
 }
 
@@ -1587,7 +1587,7 @@ footer {
 @media screen and (max-width: 320px) {
   section {
     margin: 0 auto;
-    width: 320px;
+    margin: 320px;
   }
   section .oneblock {
     background: url("img/mount.png") no-repeat top;

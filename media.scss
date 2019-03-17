@@ -1,323 +1,395 @@
 @media screen and (max-width: 320px){
-  section{
-    margin: 0 auto;
-    width: 320px;
-    .oneblock{
-      background: url('img/mount.png') no-repeat top;
-      background-size: 211%;
-      .container{
-        width: 280px;
-        margin: 0 auto;
-        header{
-          nav{
-            width: 280px;
-            display: flex;
-            flex-wrap: wrap;
-            top: 15px;
-            .menu{
-              display: none;
-            }
-            .submit{
+  section {
+      margin: 0 auto;
+      margin: 320px;
+      .oneblock {
+        background: url('img/mount.png') no-repeat top;
+        background-size: 211%;
+
+        .container {
+          width: 280px;
+          margin: 0 auto;
+
+          header {
+            nav {
               width: 280px;
-              top:17px;
               display: flex;
-              justify-content: center;
-              .button{
+              flex-wrap: wrap;
+              top: 15px;
+
+              .menu {
+                display: none;
+              }
+
+              .submit {
                 width: 280px;
+                top: 17px;
+                display: flex;
+                justify-content: center;
 
-              }
-            }
-          }
-        }
-        main{
-          .text1{
-            margin-top: 45px;
-            h1{
-              font-family: PlayfairDisplay;
-              line-height: 34px;
-              font-size: 36px;
-            }
-            p{
-              font-family: Signika;
-              line-height: 23px;
-              font-size: 16px;
-              letter-spacing: 0.48px;
-              padding-bottom: 13px;
-            }
-          }
-        }
-        footer{
-          .footer2{
-            margin: 0;
-            .social-media-mouse {
-              .social-media {
-                a {
-                  display: none;
+                .button {
+                  width: 280px;
+
                 }
               }
-              .button-mouse{
-                top:0;
-                left: 0;
-
-              }
-
-
-
             }
-            .text2 {
-              margin-top: 138px;
-              h2{
+          }
 
+          main {
+            .text1 {
+              margin-top: 45px;
+
+              h1 {
                 font-family: PlayfairDisplay;
-                line-height: normal;
-                font-size: 26px;
-              }
-              .boxtext2{
-
-                .text21{
-
-
-                  &_1{
-                    display: none;
-                  }
-                  &_2{
-                    display: none;
-                  }
-                  &_3{
-                    h4{
-                      font-family: Signika;
-                      line-height: normal;
-                      font-size: 16px;
-                      text-transform: uppercase;
-                      padding-bottom: 14px;
-                    }
-                    p{
-
-                      font-family: Signika;
-                      line-height: 23px;
-                      font-size: 16px;
-                    }
-
-                  }
-                  &_4{
-                    display: none;
-                  }
-
-                }
-
+                line-height: 34px;
+                font-size: 36px;
               }
 
-            }
-          }
-        }
-      }
-    }
-    .twoblock{
-      top:0;
-      background: none;
-      .container{
-        width: 320px;
-        margin: 0 auto;
-
-        main{
-          .text3{
-            width: 280px;
-            margin: 0 20px;
-            h2{
-              font-family: PlayfairDisplay;
-              line-height: normal;
-              font-size: 26px;
-            }
-            .boxtext3{
-              .text31{
-                width: 130px;
-                height: 130px;
-                p{
-                  display: none;
-                }
-                h4{
-                  font-family: Signika;
-                  line-height: 18px;
-                  font-size: 16px;
-                  text-align: center;
-                  text-transform: uppercase;
-                }
-                .learmore{
-                  display: none;
-                }
-
-
-                &_1{}
-                &_2{}
-                &_3{}
-                &_4{}
-                &_5{}
-                &_6{}
-
+              p {
+                font-family: Signika;
+                line-height: 23px;
+                font-size: 16px;
+                letter-spacing: 0.48px;
+                padding-bottom: 13px;
               }
             }
           }
-          .text4{
-            width: 100%;
 
-            height: 540px;
-            .boxtext4{
+          footer {
+            .footer2 {
               margin: 0;
-              .boxtext41{
 
-                .text41{
-                  display: flex;
-                  flex-direction: column;
-                  align-items: flex-start;
-                  .bulb{
-                    margin: 20px 25px;
-                    height: 77px;
-
+              .social-media-mouse {
+                .social-media {
+                  a {
+                    display: none;
                   }
-                  .thank{
-                    width: 100%;
-                    margin: 0;
-                    box-sizing: border-box;
-                    /*margin-bottom: 25px;*/
-                    h2{
-                      font-family: Playfair Display;
-                      line-height: normal;
-                      font-size: 26px;
-                      white-space: pre-line;
-                    }
+                }
 
-                  }
-                  .wehere{
-                    width: 280px;
-                    height: 168px;
-                    margin: 0;
-                    letter-spacing: 0;
-                    p{
-                      padding: 0 20px;
-                      width: 100%;
-                      box-sizing: content-box;
-                      font-family: Signika;
-                      line-height: 26px;
-                      font-size: 16px;
-                    }
-
-                  }
+                .button-mouse {
+                  top: 0;
+                  left: 0;
 
                 }
+
+
               }
-            }
-          }
-          .text5{
-            width: 320px;
-            .boxtext5{
-              width: 280px;
-              margin: 0 20px;
-              align-items: normal;
-              .text51{
-                left: 0;
-                margin-bottom: 30px;
-                padding: 0;
-                h2{
+
+              .text2 {
+                margin-top: 138px;
+
+                h2 {
+
                   font-family: PlayfairDisplay;
                   line-height: normal;
                   font-size: 26px;
                 }
-                p{
-                  width: 100%;
-                  font-family: Signika-light;
-                  line-height: 23px;
-                  font-size: 16px;
+
+                .boxtext2 {
+
+                  .text21 {
+
+
+                    &_1 {
+                      display: none;
+                    }
+
+                    &_2 {
+                      display: none;
+                    }
+
+                    &_3 {
+                      h4 {
+                        font-family: Signika;
+                        line-height: normal;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        padding-bottom: 14px;
+                      }
+
+                      p {
+
+                        font-family: Signika;
+                        line-height: 23px;
+                        font-size: 16px;
+                      }
+
+                    }
+
+                    &_4 {
+                      display: none;
+                    }
+
+                  }
+
                 }
+
               }
             }
           }
         }
       }
-    }
-    .threeblock{
-      top:0;
-      margin-top: 66px ;
-      .container{
-        width: 320px;
-        main{
-          .classus{
-            height: 540px;
-            .textbox6{
-              width: 280px;
-              margin: 25px 20px;
-              flex-flow: column nowrap;
-              .text6{
-                width: 100%;
-                margin: 0;
-                .text61{
-                  #call{
 
-                    font-family: PlayfairDisplay;
-                    line-height: 34px;
-                    font-size: 36px;
+      .twoblock {
+        top: 0;
+        background: none;
+
+        .container {
+          width: 320px;
+          margin: 0 auto;
+
+          main {
+            .text3 {
+              width: 280px;
+              margin: 0 20px;
+
+              h2 {
+                font-family: PlayfairDisplay;
+                line-height: normal;
+                font-size: 26px;
+              }
+
+              .boxtext3 {
+                .text31 {
+                  width: 130px;
+                  height: 130px;
+
+                  p {
+                    display: none;
                   }
-                  p{
+
+                  h4 {
                     font-family: Signika;
-                    font-style: normal;
-                    font-weight: normal;
-                    line-height: 26px;
+                    line-height: 18px;
+                    font-size: 16px;
+                    text-align: center;
+                    text-transform: uppercase;
+                  }
+
+                  .learmore {
+                    display: none;
+                  }
+
+
+                  &_1 {
+                  }
+
+                  &_2 {
+                  }
+
+                  &_3 {
+                  }
+
+                  &_4 {
+                  }
+
+                  &_5 {
+                  }
+
+                  &_6 {
+                  }
+
+                }
+              }
+            }
+
+            .text4 {
+              width: 100%;
+
+              height: 540px;
+
+              .boxtext4 {
+                margin: 0;
+
+                .boxtext41 {
+
+                  .text41 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    .bulb {
+                      margin: 20px 25px;
+                      height: 77px;
+
+                    }
+
+                    .thank {
+                      width: 100%;
+                      margin: 0;
+                      box-sizing: border-box;
+                      /*margin-bottom: 25px;*/
+                      h2 {
+                        font-family: Playfair Display;
+                        line-height: normal;
+                        font-size: 26px;
+                        white-space: pre-line;
+                      }
+
+                    }
+
+                    .wehere {
+                      width: 280px;
+                      height: 168px;
+                      margin: 0;
+                      letter-spacing: 0;
+
+                      p {
+                        padding: 0 20px;
+                        width: 100%;
+                        box-sizing: content-box;
+                        font-family: Signika;
+                        line-height: 26px;
+                        font-size: 16px;
+                      }
+
+                    }
+
+                  }
+                }
+              }
+            }
+
+            .text5 {
+              width: 320px;
+
+              .boxtext5 {
+                width: 280px;
+                margin: 0 20px;
+                align-items: normal;
+
+                .text51 {
+                  left: 0;
+                  margin-bottom: 30px;
+                  padding: 0;
+
+                  h2 {
+                    font-family: PlayfairDisplay;
+                    line-height: normal;
+                    font-size: 26px;
+                  }
+
+                  p {
+                    width: 100%;
+                    font-family: Signika-light;
+                    line-height: 23px;
                     font-size: 16px;
                   }
                 }
               }
-              .text62{
-                width: 100%;
-                margin: 20px 0;
-              }
-
-            }
-            .learmore{
-              margin: 0;
             }
           }
-          .new{
-            width: 280px;
-            margin: 0 20px;
-            .newtext{
-              display: flex;
-              flex-direction: column;
-              padding: 20px 0;
-              .new1{
-                &>.time,.image{
-                  padding: 10px 0;
-                }
-                h4{
-                  color: rgba(255, 255, 255, 0.8);
-                  opacity: 0.9;
-                }
-                p{
-                  color: rgba(255, 255, 255, 0.8);
-                }
-
-              }
-            }
-
-          }
-
         }
-        footer{
+      }
 
-          display: flex;
-          justify-content: normal;
-          .footer1{
+      .threeblock {
+        top: 0;
+        margin-top: 66px;
 
-            margin: 0;
-            .box1{
-              width: 280px;
-              display: flex;
-              .menu1{display: flex;
-                flex-wrap: wrap;}
+
+        .container {
+          width: 320px;
+
+          main {
+            .classus {
+              height: 540px;
+
+              .textbox6 {
+                width: 280px;
+                margin: 25px 20px;
+                flex-flow: column nowrap;
+
+                .text6 {
+                  width: 100%;
+                  margin: 0;
+
+                  .text61 {
+                    #call {
+
+                      font-family: PlayfairDisplay;
+                      line-height: 34px;
+                      font-size: 36px;
+                    }
+
+                    p {
+                      font-family: Signika;
+                      font-style: normal;
+                      font-weight: normal;
+                      line-height: 26px;
+                      font-size: 16px;
+                    }
+                  }
+                }
+
+                .text62 {
+                  width: 100%;
+                  margin: 20px 0;
+                }
+
+              }
+
+              .learmore {
+                margin: 0;
+              }
             }
-            .box2{width: 280px;}
+
+            .new {
+              width: 280px;
+              margin: 0 20px;
+
+              .newtext {
+                display: flex;
+                flex-direction: column;
+                padding: 20px 0;
+
+                .new1 {
+                  & > .time, .image {
+                    padding: 10px 0;
+                  }
+
+                  h4 {
+                    color: rgba(255, 255, 255, 0.8);
+                    opacity: 0.9;
+                  }
+
+                  p {
+                    color: rgba(255, 255, 255, 0.8);
+                  }
+
+                }
+              }
+
+            }
+
           }
 
+          footer {
+
+            display: flex;
+            justify-content: normal;
+
+            .footer1 {
+
+              margin: 0;
+
+              .box1 {
+                width: 280px;
+                display: flex;
+
+                .menu1 {
+                  display: flex;
+                  flex-wrap: wrap;
+                }
+              }
+
+              .box2 {
+                width: 280px;
+              }
+            }
+
+          }
         }
       }
     }
-  }
+
 }
