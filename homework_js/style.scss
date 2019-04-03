@@ -1,0 +1,52 @@
+body{
+  margin: 0 auto;
+  width: 1200px;
+  .block{
+    width: 800px;
+    height: 80vh;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #1e17fa, #ffffff);
+
+
+  .container{
+
+
+
+
+    .menu{
+
+      display:flex;
+      justify-content: center;
+      justify-content: space-around;
+      ul{
+        display: flex;
+        justify-content: space-around;
+        .items{
+          list-style: none;
+          height: 25px;
+          margin-left: 20px;
+          a{
+            font-family: Arial, Serif;
+            text-decoration: none;
+            padding: 5px 20px;
+            background: #1e17fa;
+            border-radius: 25px;
+            color: #fff;
+
+
+          }
+          a:hover{
+            background: #fff;
+            color: #1e17fa;
+
+          }
+
+        }
+
+      }
+
+
+    }
+  }
+  }
+}
