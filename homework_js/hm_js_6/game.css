@@ -1,9 +1,18 @@
+body {
+  margin: 40vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b3d4fc;
+}
+
 #game {
   background: #9b59b6;
   width: 150px;
   height: 150px;
   display: flex;
   flex-wrap: wrap;
+  border: 1px solid #9b59b6;
 }
 
 .items {

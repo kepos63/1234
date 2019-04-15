@@ -15,7 +15,7 @@ let step = 0;
             if(step%2==0){
 
 
-                event.target.innerHTML=='x';
+                event.target.innerHTML='x';
 
 
 
