@@ -4,21 +4,46 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+
+
 </head>
 <body>
-<section class="block">
-<div class="container">
+<header class="wrapper">
+    <div class="header">
+            <div class="content"><h1>Page homework JS</h1></div>
+    </div>
+</header>
+<section id="block">
+    <div  id="creep-menu">
+    <div  id="btn-menu" onClick='openMenu'></div>
     <nav class="menu">
-        <ul>
-            <li class="items"><a href="hm_js_1/index.html" target="_blank">ДЗ 1</a></li>
-            <li class="items"><a href="hm_js_2/index.html" target="_blank">ДЗ 2</a></li>
-            <li class="items"><a href="hm_js_3/index.html" target="_blank">ДЗ 3</a></li>
-            <li class="items"><a href="hm_js_4/index.html" target="_blank">ДЗ 4</a></li>
-            <li class="items"><a href="hm_js_5/index.html" target="_blank">ДЗ 5</a></li>
+        <ul class="ul-menu" >
+            <li class="list"><a class="link" href="hm_js_1/index.html" target="_blank">ДЗ 1</a></li>
+            <li class="list"><a class="link" href="hm_js_2/index.html" target="_blank">ДЗ 2</a></li>
+            <li class="list"><a class="link" href="hm_js_3/index.html" target="_blank">ДЗ 3</a></li>
+            <li class="list"><a class="link" href="hm_js_4/index.html" target="_blank">ДЗ 4</a></li>
+            <li class="list"><a class="link" href="hm_js_5/index.html" target="_blank">ДЗ 5</a></li>
+            <li class="list"><a class="link" id="modal" onClick='openModal'>Модальное</a></li>
         </ul>
     </nav>
+    </div>
+    <div id="content"></div>
 </div>
+<div id="content-modal">
+        <div>
+            <p>Привет, я модальное окно</p>
+            <div id="close-modal" onClick='closeModal'>Закрыть</div>
+        </div>
+    </div>
+    <div id="content2"></div>
+</section>
+<section class="block2">
+
 </section>
 
+<script src="main.js"></script>
+<script src="modal.js"></script>
+<script src="parallax.js"></script>
 </body>
+
 </html>
