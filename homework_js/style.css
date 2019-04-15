@@ -59,7 +59,7 @@ body #block #creep-menu .menu .ul-menu .list .link {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 900;
-  color: #9b59b6;
+  color: rgba(85, 182, 120, 0.97);
   font-family: Signika, sans-serif;
 }
 body #block #creep-menu .menu .ul-menu .list #modal {
